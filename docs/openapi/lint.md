@@ -9,7 +9,7 @@ Lint an OpenAPI document
 # Lint 
 ## OpenAPI
 
-Validates an OpenAPI document is valid and conforms to the Speakeasy OpenAPI specification.
+Validates an OpenAPI document is valid and conforms to the Speakeasy OpenAPI specification. The linting process checks for structural integrity, semantic correctness, and adherence to best practices.
 
 ## Usage
 
@@ -38,3 +38,15 @@ speakeasy openapi lint [flags]
 ### Parent Command
 
 * [speakeasy openapi](README.md)	 - Utilities for working with OpenAPI documents
+
+### Additional Information
+
+The lint command is essential for maintaining high-quality OpenAPI documents. It helps identify issues such as:
+
+- Structural errors in the JSON or YAML format
+- Semantic inconsistencies within the API definition
+- Deviations from OpenAPI specification standards
+- Potential security vulnerabilities
+- Naming convention violations
+
+By running the lint command regularly during API development, you can catch and fix issues early, ensuring a more robust and reliable API documentation.
