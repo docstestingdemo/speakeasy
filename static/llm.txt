@@ -1,0 +1,1959 @@
+Below is all the contents of our docs: 
+
+
+
+ This is the content for the doc README.md 
+
+ <div align="center">
+ <a href="https://www.speakeasy.com/" target="_blank">
+   <picture>
+       <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/21dd5d3a-aefc-4cd3-abee-5e17ef1d4dad">
+       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/0a747f98-d228-462d-9964-fd87bf93adc5">
+       <img width="100px" src="https://github.com/user-attachments/assets/21dd5d3a-aefc-4cd3-abee-5e17ef1d4dad#gh-light-mode-only" alt="Speakeasy">
+   </picture>
+ </a>
+  <h1>Speakeasy</h1>
+  <p>Build APIs your users love ❤️ with Speakeasy</p>
+  <div>
+   <a href="https://speakeasy.com/docs/create-client-sdks/" target="_blank"><b>Docs Quickstart</b></a>&nbsp;&nbsp;//&nbsp;&nbsp;<a href="https://join.slack.com/t/speakeasy-dev/shared_invite/zt-1cwb3flxz-lS5SyZxAsF_3NOq5xc8Cjw" target="_blank"><b>Join us on Slack</b></a>
+  </div>
+ <br />
+
+[![LW24 participant](https://img.shields.io/badge/featured-LW24-8957E5.svg?style=flat-square&labelColor=0D1117&logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMzYwIiBoZWlnaHQ9IjM2MCIgdmlld0JveD0iMCAwIDM2MCAzNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+IDxyZWN0IHdpZHRoPSI2MCIgaGVpZ2h0PSIzMDAiIGZpbGw9IndoaXRlIi8+IDxyZWN0IHg9IjYwIiB5PSIzMDAiIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAiIGZpbGw9IndoaXRlIi8+IDxyZWN0IHg9IjI0MCIgeT0iMzAwIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIGZpbGw9IndoaXRlIi8+IDxyZWN0IHg9IjMwMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjMwMCIgZmlsbD0id2hpdGUiLz4gPHJlY3QgeD0iMTgwIiB3aWR0aD0iNjAiIGhlaWdodD0iMzAwIiBmaWxsPSJ3aGl0ZSIvPiA8L3N2Zz4=)](https://launchweek.dev/lw/2024/mega#participants)
+  
+</div>
+
+<hr />
+
+<div align="left">
+  <h4><b>Trusted By:</b></h4>
+  <h4>
+   <p>
+    <a href="https://github.com/vercel/sdk" target="_blank" margin-right="20px">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a6feb0ff-6cb4-406f-9797-246dcbd7ae01">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e5096709-2a50-4010-a719-d5f4c84a7279">
+      <img width="200px" src="https://github.com/user-attachments/assets/a6feb0ff-6cb4-406f-9797-246dcbd7ae01#gh-light-mode-only" alt="Vercel">
+     </picture>
+     </a>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+        <img height="80" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+      </picture>
+      <a href="https://github.com/mistralai/client-python" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/2f7d466c-864e-4a42-aa7e-e9c251dec211">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/29bd2611-92f4-44fe-91d5-78e6781ca6c2">
+      <img width="200px" src="https://github.com/user-attachments/assets/2f7d466c-864e-4a42-aa7e-e9c251dec211#gh-light-mode-only" alt="Mistral">
+     </picture>
+    </a>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+        <img height="80" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+      </picture>
+      <a href="https://github.com/clerk/clerk-sdk-python" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/b0351caf-bc9a-4f25-8eac-4e8f8bf0e078">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/2b0631bf-f2d0-436b-b008-fcabbb134d50">
+      <img width="200px" src="https://github.com/user-attachments/assets/b0351caf-bc9a-4f25-8eac-4e8f8bf0e078#gh-light-mode-only" alt="Clerk">
+     </picture>
+    </a>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+        <img height="80" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line![fireworks-git](https://github.com/user-attachments/assets/26e80c87-c53c-4531-a607-cc78646bfdd7)
+">
+      </picture>
+      <a href="https://fireworks.ai/" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/eb4327bc-91fc-4195-b68f-399712d4a24d">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/abb4c770-ab92-4595-81b0-a4736fb14b72">
+      <img width="200px" src="https://github.com/user-attachments/assets/eb4327bc-91fc-4195-b68f-399712d4a24d#gh-light-mode-only" alt="Fireworks">
+     </picture>
+    </a>
+   </p>
+    <a href="https://speakeasy.com/customers"><p>
+      Full showcase →
+    </p></a>
+  </h4>
+</div>
+
+## A Modern OpenAPI Native Toolchain
+
+<p>Polished and type-safe SDKs, Terraform providers and Contract Tests for your API. 10 Languages and counting.</p>
+<a href="https://app.speakeasy.com/"><img src="https://custom-icon-badges.demolab.com/badge/-Start%20Generating%20-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" alt="Start Generating"/></a>
+<a href="https://youtu.be/-cSZGUvT5-8?si=VwJBPcOGq0g2R4cI"><img src="https://img.shields.io/static/v1?label=Docs&message=Watch Demo&color=000&style=for-the-badge" alt="Watch Demo" /></a>
+
+<div align="left">
+  <h1>
+   <p>
+    <a href="https://www.speakeasy.com/docs/sdk-design/typescript/methodology-ts" target="_blank" margin-right="20px">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/6c36bce3-34cf-4b68-b6e9-bd1522dfc8bf">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/6c36bce3-34cf-4b68-b6e9-bd1522dfc8bf">
+      <img width="100px" src="https://github.com/user-attachments/assets/6c36bce3-34cf-4b68-b6e9-bd1522dfc8bf#gh-light-mode-only" alt="Scalar API Reference">
+     </picture>
+     </a>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+      <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+    </picture>
+      <a href="https://www.speakeasy.com/docs/sdk-design/python/methodology-python" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/34a57c5b-e81d-4238-a1a4-2f1289630599">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/34a57c5b-e81d-4238-a1a4-2f1289630599">
+      <img width="100px" src="https://github.com/user-attachments/assets/34a57c5b-e81d-4238-a1a4-2f1289630599#gh-light-mode-only" alt="Python">
+     </picture>
+    </a>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+      <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+    </picture>
+      <a href="https://www.speakeasy.com/docs/sdk-design/golang/methodology-go" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/7be9379e-d3ae-44f7-afd0-a9fee526d402">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/7be9379e-d3ae-44f7-afd0-a9fee526d402">
+      <img width="100px" src="https://github.com/user-attachments/assets/7be9379e-d3ae-44f7-afd0-a9fee526d402#gh-light-mode-only" alt="Golang">
+     </picture>
+    </a>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+      <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+    </picture>
+    <a href="https://www.speakeasy.com/docs/create-terraform" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/7899cbd5-13c0-445e-b4ca-429fd2259477">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/7899cbd5-13c0-445e-b4ca-429fd2259477">
+      <img width="100px" src="https://github.com/user-attachments/assets/7899cbd5-13c0-445e-b4ca-429fd2259477#gh-light-mode-only" alt="Terraform">
+     </picture>
+    </a>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+      <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+    </picture>
+    <a href="https://www.speakeasy.com/docs/sdk-design/java/methodology-java" target="_blank" margin-right="20px">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/9cc5a8d8-ce16-487d-9033-db4b364323cb">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/9cc5a8d8-ce16-487d-9033-db4b364323cb">
+      <img width="100px" src="https://github.com/user-attachments/assets/9cc5a8d8-ce16-487d-9033-db4b364323cb#gh-light-mode-only" alt="Java">
+     </picture>
+    </a>
+   </p>
+    <p>
+      <a href="https://www.speakeasy.com/docs/sdk-design/csharp/methodology-csharp" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/1f5c4a9c-f841-4c56-8d3c-bcb43ac4eef7">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/1f5c4a9c-f841-4c56-8d3c-bcb43ac4eef7">
+      <img width="100px" src="https://github.com/user-attachments/assets/1f5c4a9c-f841-4c56-8d3c-bcb43ac4eef7#gh-light-mode-only" alt="Csharp">
+     </picture>
+    </a>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+        <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+      </picture>
+      <a href="https://www.speakeasy.com/docs/sdk-design/php/methodology-php" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/15f6a6c7-eb71-466c-bbaa-d7a974a25b5c">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/15f6a6c7-eb71-466c-bbaa-d7a974a25b5c">
+      <img width="100px" src="https://github.com/user-attachments/assets/15f6a6c7-eb71-466c-bbaa-d7a974a25b5c#gh-light-mode-only" alt="PHP">
+     </picture>
+    </a>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+        <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+      </picture>
+      <a href="https://www.speakeasy.com/docs/sdk-design/ruby/methodology-ruby" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/c01f4d21-c05a-4d77-a65a-c7f4e72b1993">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c01f4d21-c05a-4d77-a65a-c7f4e72b1993">
+      <img width="100px" src="https://github.com/user-attachments/assets/c01f4d21-c05a-4d77-a65a-c7f4e72b1993#gh-light-mode-only" alt="Ruby">
+     </picture>
+    </a>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+      <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+    </picture>
+    <a href="https://www.speakeasy.com/docs/languages/swift/methodology-swift" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/122f024b-f3ce-4c24-b62e-71497a042689">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/122f024b-f3ce-4c24-b62e-71497a042689">
+      <img width="100px" src="https://github.com/user-attachments/assets/122f024b-f3ce-4c24-b62e-71497a042689#gh-light-mode-only" alt="Swift">
+     </picture>
+    </a>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/c160c3e7-22f8-4523-9e25-0df1802fd6fe">
+      <img height="100px" src="https://github.com/user-attachments/assets/a7e32045-a53a-433a-908f-1f5338b17758#gh-light-mode-only" alt="Line">
+    </picture>
+    <a href="https://www.speakeasy.com/docs/languages/unity/methodology-unity" target="_blank">
+     <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/69594a33-8ffc-4570-8144-be6080b07eb6">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/69594a33-8ffc-4570-8144-be6080b07eb6">
+      <img width="100px" src="https://github.com/user-attachments/assets/69594a33-8ffc-4570-8144-be6080b07eb6#gh-light-mode-only" alt="Unity">
+     </picture>
+    </a>
+   </p>
+  </h1>
+</div>
+
+<h2>
+ <p>How it works</p>
+   <picture>
+    <img src="https://github.com/user-attachments/assets/50a87bdc-5109-46a9-a1b5-082a2b26435e" alt="Speakeasy Workflow">
+   </picture>
+  </a>
+</h2>
+
+### Features
+
+- SDK code that looks you wrote it. Optimised for performance, debuggability and modern idiomatics.
+- Complete Terraform Providers built on a Type-safe Go SDK.
+- Contract Test generation with a pre built mock-server ([Powered by Arazzo](https://www.speakeasy.com/openapi/arazzo))
+- Generate clean code-samples for syncing with API docs.
+- Make `npm install your-api`. Manage versioning and publishing to package managers
+- Modern OpenAPI 3.X toolchain for linting, cleaning, diff-ing and editing specs. ([Powered by Overlays](https://www.speakeasy.com/openapi/overlays))
+
+Check out the [roadmap](https://www.speakeasyapi.dev/roadmap) for whats coming up soon!
+
+## CLI installation
+
+### Homebrew (macOS and Linux)
+
+```bash
+brew install speakeasy-api/homebrew-tap/speakeasy
+```
+
+### Script (macOS and Linux)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/speakeasy-api/speakeasy/main/install.sh | sh
+```
+
+### winget (Windows)
+
+```cmd
+winget install speakeasy
+```
+
+### Chocolatey (Windows)
+
+```cmd
+choco install speakeasy
+```
+
+### Manual installation
+
+Download the latest release for your platform from the [releases page](https://github.com/speakeasy-api/speakeasy/releases), extract, and add the binary to your path.
+
+### Keeping up to date
+
+The CLI will warn you if you're running an outdated version. To update the CLI run:
+
+```bash
+speakeasy update
+```
+
+## Common CLI commands
+
+| Command      | Description                                                                                                    |
+| :----------- | :------------------------------------------------------------------------------------------------------------- |
+| `auth`       | Log in & out of your organization's workspace.                                                                 |
+| `quickstart` | Create an idiomatic client SDK or target, such as a Terraform Provider, from your API specs.                   |
+| `run`        | Regenerate existing SDK/target from your API specs.                                                            |
+| `lint`       | Validate the correctness of your API specs. `speakeasy run` also includes a validation step before generation. |
+| `suggest`    | Use an LLM to autocorrect your spec validation failures.                                                       |
+| `merge`      | Work with your existing documentation workflows by merging your API specs into a single spec.                  |
+| `status`     | Review all SDK/targets in current workspace.                                                                   |
+
+## Community
+
+We love chatting about OpenAPI and API Design. Come chat with us on [slack](https://join.slack.com/t/speakeasy-dev/shared_invite/zt-1cwb3flxz-lS5SyZxAsF_3NOq5xc8Cjw).
+
+
+ This is the content for the doc docs/README.md 
+
+ # speakeasy  
+`speakeasy`  
+
+
+The Speakeasy CLI tool provides access to the Speakeasy.com platform  
+
+## Details
+
+# Speakeasy 
+
+A CLI tool for interacting with the [Speakeasy platform](https://www.speakeasy.com/) and its APIs.
+
+Use this CLI to:
+- Lint and validate OpenAPI specs
+- Create, manage, and run Speakeasy workflows
+- Configure GitHub Actions for Speakeasy workflows
+- Suggest improvements to OpenAPI specs
+
+Generate from OpenAPI Specs:
+- Client and Server SDKs in GO, Python, TypeScript, Java, PHP, C#, Swift, Ruby
+- Postman collections
+- Terraform providers
+
+[Quickstart guide](https://www.speakeasy.com/docs/create-client-sdks)
+
+Visit [Speakeasy](https://www.speakeasy.com/) for more information
+
+
+## Usage
+
+```
+speakeasy [flags]
+```
+
+### Options
+
+```
+  -h, --help              help for speakeasy
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Sub Commands
+
+* [speakeasy ask](ask.md)	 - Starts a conversation with Speakeasy trained AI
+* [speakeasy auth](auth/README.md)	 - Authenticate the CLI
+* [speakeasy bump](bump.md)	 - Bumps the version of a Speakeasy Generation Target
+* [speakeasy clean](clean.md)	 - Speakeasy clean can be used to clean up cache, stale temp folders, and old CLI binaries.
+* [speakeasy configure](configure/README.md)	 - Configure your Speakeasy SDK Setup.
+* [speakeasy generate](generate/README.md)	 - One off Generations for client SDKs and more
+* [speakeasy lint](lint/README.md)	 - Lint/Validate OpenAPI documents and Speakeasy configuration files
+* [speakeasy merge](merge.md)	 - Merge multiple OpenAPI documents into a single document
+* [speakeasy openapi](openapi/README.md)	 - Utilities for working with OpenAPI documents
+* [speakeasy overlay](overlay/README.md)	 - Work with OpenAPI Overlays
+* [speakeasy quickstart](quickstart.md)	 - Guided setup to help you create a new SDK in minutes.
+* [speakeasy run](run.md)	 - Run all the workflows defined in your workflow.yaml file. This can include multiple SDK generations from different OpenAPI sources
+* [speakeasy status](status.md)	 - Review status of current workspace
+* [speakeasy suggest](suggest/README.md)	 - Automatically improve your OpenAPI document with an LLM
+* [speakeasy tag](tag/README.md)	 - Add tags to a given revision of your API. Specific to a registry namespace
+* [speakeasy update](update.md)	 - Update the Speakeasy CLI to the latest version
+
+
+ This is the content for the doc docs/ask.md 
+
+ # ask  
+`speakeasy ask`  
+
+
+Starts a conversation with Speakeasy trained AI  
+
+## Details
+
+Starts a conversation with Speakeasy trained AI. Ask about OpenAPI, Speakeasy, configuring SDKs, or anything else you need help with.
+
+## Usage
+
+```
+speakeasy ask [flags]
+```
+
+### Options
+
+```
+  -h, --help             help for ask
+  -m, --message string   Your question for AI.
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+
+
+ This is the content for the doc docs/auth/README.md 
+
+ # auth  
+`speakeasy auth`  
+
+
+Authenticate the CLI  
+
+## Details
+
+The "authenticate" command allows control over the authentication of the CLI.
+
+## Usage
+
+```
+speakeasy auth [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for auth
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](../README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+### Sub Commands
+
+* [speakeasy auth login](login.md)	 - Authenticate the CLI
+* [speakeasy auth logout](logout.md)	 - Logout of the CLI
+* [speakeasy auth switch](switch.md)	 - Switch between authenticated workspaces
+
+
+ This is the content for the doc docs/auth/login.md 
+
+ # login  
+`speakeasy auth login`  
+
+
+Authenticate the CLI  
+
+## Details
+
+The "login" command authenticates the CLI for use with the Speakeasy Platform.
+
+## Usage
+
+```
+speakeasy auth login [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for login
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy auth](README.md)	 - Authenticate the CLI
+
+
+ This is the content for the doc docs/auth/logout.md 
+
+ # logout  
+`speakeasy auth logout`  
+
+
+Logout of the CLI  
+
+## Details
+
+The "logout" command removes authentication from the CLI.
+
+## Usage
+
+```
+speakeasy auth logout [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for logout
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy auth](README.md)	 - Authenticate the CLI
+
+
+ This is the content for the doc docs/auth/switch.md 
+
+ # switch  
+`speakeasy auth switch`  
+
+
+Switch between authenticated workspaces  
+
+## Details
+
+Change the default workspace to a different authenticated workspace
+
+## Usage
+
+```
+speakeasy auth switch [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for switch
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy auth](README.md)	 - Authenticate the CLI
+
+
+ This is the content for the doc docs/bump.md 
+
+ # bump  
+`speakeasy bump`  
+
+
+Bumps the version of a Speakeasy Generation Target  
+
+## Details
+
+# Bump
+
+Bumps the version of a Speakeasy Generation Target, run within the target's directory. Allows the bumping of patch, minor, and major versions or setting to a specific version.
+
+Examples:
+
+- speakeasy bump patch - Bumps the target's version by one patch version
+- speakeasy bump -v 1.2.3 - Sets the target's version to 1.2.3
+- speakeasy bump major -t typescript - Bumps the typescript target's version by one major version
+- speakeasy bump graduate - Current version 1.2.3-alpha.1 sets the target's version to 1.2.3
+
+
+## Usage
+
+```
+speakeasy bump [patch|minor|major|graduate] [flags]
+```
+
+### Examples
+
+```
+
+
+const version = require("@speakeasy/sdk-typescript").version;
+console.log(version);
+
+```
+
+### Options
+
+```
+  -h, --help             help for bump
+  -t, --target string    The target to bump the version of, if more than one target is found in the gen.yaml
+  -v, --version string   The version to bump to, if you want to specify a specific version.
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+
+
+ This is the content for the doc docs/clean.md 
+
+ # clean  
+`speakeasy clean`  
+
+
+Speakeasy clean can be used to clean up cache, stale temp folders, and old CLI binaries.  
+
+## Details
+
+Using speakeasy clean outside of an SDK directory or with the --global will clean cache, CLI binaries, and more out of the root .speakeasy folder.
+Within an SDK directory, it will clean out stale entries within the local .speakeasy folder.
+
+## Usage
+
+```
+speakeasy clean [flags]
+```
+
+### Options
+
+```
+      --global   clean out the root .speakeasy directory
+  -h, --help     help for clean
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+
+
+ This is the content for the doc docs/configure/README.md 
+
+ # configure  
+`speakeasy configure`  
+
+
+Configure your Speakeasy SDK Setup.  
+
+## Details
+
+# Configure
+
+Configure your Speakeasy workflow file.
+
+[Workflows](https://www.speakeasy.com/docs/workflow-file-reference)
+
+[GitHub Setup](https://www.speakeasy.com/docs/publish-sdks/github-setup)
+
+[Publishing](https://www.speakeasy.com/docs/publish-sdks/publish-sdks)
+
+
+
+## Usage
+
+```
+speakeasy configure [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for configure
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](../README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+### Sub Commands
+
+* [speakeasy configure github](github.md)	 - Configure Speakeasy for github.
+* [speakeasy configure publishing](publishing.md)	 - Configure Speakeasy for publishing.
+* [speakeasy configure sources](sources.md)	 - Configure new or existing sources.
+* [speakeasy configure targets](targets.md)	 - Configure new target.
+
+
+ This is the content for the doc docs/configure/github.md 
+
+ # github  
+`speakeasy configure github`  
+
+
+Configure Speakeasy for github.  
+
+## Details
+
+Configure your Speakeasy workflow to generate and publish from your github repo.
+
+## Usage
+
+```
+speakeasy configure github [flags]
+```
+
+### Options
+
+```
+  -h, --help                        help for github
+  -d, --workflow-directory string   directory of speakeasy workflow file
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy configure](README.md)	 - Configure your Speakeasy SDK Setup.
+
+
+ This is the content for the doc docs/configure/publishing.md 
+
+ # publishing  
+`speakeasy configure publishing`  
+
+
+Configure Speakeasy for publishing.  
+
+## Details
+
+Configure your Speakeasy workflow to publish to package managers from your github repo.
+
+## Usage
+
+```
+speakeasy configure publishing [flags]
+```
+
+### Options
+
+```
+  -h, --help                        help for publishing
+  -d, --workflow-directory string   directory of speakeasy workflow file
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy configure](README.md)	 - Configure your Speakeasy SDK Setup.
+
+
+ This is the content for the doc docs/configure/sources.md 
+
+ # sources  
+`speakeasy configure sources`  
+
+
+Configure new or existing sources.  
+
+## Details
+
+Guided prompts to configure a new or existing source in your speakeasy workflow.
+
+## Usage
+
+```
+speakeasy configure sources [flags]
+```
+
+### Options
+
+```
+  -h, --help        help for sources
+  -i, --id string   the name of an existing source to configure
+  -n, --new         configure a new source
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy configure](README.md)	 - Configure your Speakeasy SDK Setup.
+
+
+ This is the content for the doc docs/configure/targets.md 
+
+ # targets  
+`speakeasy configure targets`  
+
+
+Configure new target.  
+
+## Details
+
+Guided prompts to configure a new target in your speakeasy workflow.
+
+## Usage
+
+```
+speakeasy configure targets [flags]
+```
+
+### Options
+
+```
+  -h, --help        help for targets
+  -i, --id string   the name of an existing target to configure
+  -n, --new         configure a new target
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy configure](README.md)	 - Configure your Speakeasy SDK Setup.
+
+
+ This is the content for the doc docs/generate/README.md 
+
+ # generate  
+`speakeasy generate`  
+
+
+One off Generations for client SDKs and more  
+
+## Details
+
+The "generate" command provides a set of commands for one off generations of client SDKs and Terraform providers
+
+## Usage
+
+```
+speakeasy generate [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for generate
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](../README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+### Sub Commands
+
+* [speakeasy generate changelog](changelog.md)	 - Prints information about changes to the SDK generator
+* [speakeasy generate codeSamples](codeSamples.md)	 - Creates an overlay for a given spec containing x-codeSamples extensions for the given languages.
+* [speakeasy generate sdk](sdk/README.md)	 - Generating Client SDKs from OpenAPI specs (csharp, go, java, php, postman, python, ruby, swift, terraform, typescript, unity)
+* [speakeasy generate usage](usage.md)	 - Generate standalone usage snippets for SDKs in (go, typescript, python, java, php, swift, ruby, csharp, unity)
+* [speakeasy generate version](version.md)	 - Print the version number of the SDK generator
+
+
+ This is the content for the doc docs/generate/changelog.md 
+
+ # changelog  
+`speakeasy generate changelog`  
+
+
+Prints information about changes to the SDK generator  
+
+## Details
+
+Prints information about changes to the SDK generator with the ability to filter by version and format the output for the terminal or parsing. By default it will print the latest changelog entry.
+
+## Usage
+
+```
+speakeasy generate changelog [flags]
+```
+
+### Options
+
+```
+  -h, --help              help for changelog
+  -l, --language string   the language to get changelogs for, if not specified the changelog for the generator itself will be returned
+  -p, --previous string   the version(s) to get changelogs between this and the target version(s)
+  -r, --raw               don't format the output for the terminal
+  -s, --specific string   the version to get changelogs for, not used if language is specified
+  -t, --target string     the version(s) to get changelogs from, if not specified the latest version(s) will be used
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate](README.md)	 - One off Generations for client SDKs and more
+
+
+ This is the content for the doc docs/generate/codeSamples.md 
+
+ # codeSamples  
+`speakeasy generate codeSamples`  
+
+
+Creates an overlay for a given spec containing x-codeSamples extensions for the given languages.  
+
+## Usage
+
+```
+speakeasy generate codeSamples [flags]
+```
+
+### Options
+
+```
+      --config-path string   the path to the directory containing the gen.yaml file(s) to use (default ".")
+  -H, --header string        header key to use if authentication is required for downloading schema from remote URL
+  -h, --help                 help for codeSamples
+  -l, --langs strings        the languages to generate code samples for (comma-separated list)
+      --out string           write directly to a file instead of stdout
+  -s, --schema string        the schema to generate code samples for
+      --style string         the codeSamples style to generate, usually based on where the code samples will be used (default "standard")
+      --token string         token value to use if authentication is required for downloading schema from remote URL
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate](README.md)	 - One off Generations for client SDKs and more
+
+
+ This is the content for the doc docs/generate/sdk/README.md 
+
+ # sdk  
+`speakeasy generate sdk`  
+
+
+Generating Client SDKs from OpenAPI specs (csharp, go, java, php, postman, python, ruby, swift, terraform, typescript, unity)  
+
+## Details
+
+Using the "speakeasy generate sdk" command you can generate client SDK packages for various languages
+that are ready to use and publish to your favorite package registry.
+
+The following languages are currently supported:
+	- csharp
+	- go
+	- java
+	- php
+	- postman
+	- python
+	- ruby
+	- swift
+	- terraform
+	- typescript
+	- unity
+
+By default the command will generate a Go SDK, but you can specify a different language using the --lang flag.
+It will also use generic defaults for things such as package name (openapi), etc.
+
+# Configuration
+
+To configure the package of the generated SDKs you can config a "gen.yaml" file in the root of the output directory.
+
+Example gen.yaml file for Go SDK:
+
+```
+go:
+  packageName: github.com/speakeasy-api/speakeasy-client-sdk-go
+  version: 0.1.0
+generate:
+  # baseServerUrl is optional, if not specified it will use the server URL from the OpenAPI document 
+  baseServerUrl: https://api.speakeasy.com 
+```
+
+Example gen.yaml file for Python SDK:
+
+```
+python:
+  packageName: speakeasy-client-sdk-python
+  version: 0.1.0
+  description: Speakeasy API Client SDK for Python
+  author: Speakeasy API
+generate:
+  # baseServerUrl is optional, if not specified it will use the server URL from the OpenAPI document 
+  baseServerUrl: https://api.speakeasy.com 
+```
+
+Example gen.yaml file for Typescript SDK:
+
+```
+typescript:
+  packageName: speakeasy-client-sdk-typescript
+  version: 0.1.0
+  author: Speakeasy API
+generate:
+  # baseServerUrl is optional, if not specified it will use the server URL from the OpenAPI document 
+  baseServerUrl: https://api.speakeasy.com 
+```
+
+Example gen.yaml file for Java SDK:
+
+```
+java:
+  groupID: dev.speakeasyapi
+  artifactID: javasdk
+  projectName: speakeasy-client-sdk-java
+  version: 0.1.0
+generate:
+  # baseServerUrl is optional, if not specified it will use the server URL from the OpenAPI document 
+  baseServerUrl: https://api.speakeasy.com 
+```
+
+Example gen.yaml file for PHP SDK:
+
+```
+php:
+  packageName: speakeasy-client-sdk-php
+  namespace: "speakeasyapi\\sdk"
+  version: 0.1.0
+generate:
+  # baseServerUrl is optional, if not specified it will use the server URL from the OpenAPI document 
+  baseServerUrl: https://api.speakeasy.com 
+```
+
+Example gen.yaml file for C# SDK:
+
+```
+csharp:
+  version: 0.1.0
+  author: Speakeasy
+  maxMethodParams: 0
+  packageName: SpeakeasySDK
+generate:
+  # baseServerUrl is optional, if not specified it will use the server URL from the OpenAPI document
+  baseServerUrl: https://api.speakeasy.com 
+```
+
+For additional documentation visit: https://speakeasy.com/docs/using-speakeasy/create-client-sdks/intro
+
+
+## Usage
+
+```
+speakeasy generate sdk [flags]
+```
+
+### Options
+
+```
+  -y, --auto-yes                 auto answer yes to all prompts
+  -d, --debug                    enable writing debug files with broken code
+  -H, --header string            header key to use if authentication is required for downloading schema from remote URL
+  -h, --help                     help for sdk
+  -i, --installationURL string   the language specific installation URL for installation instructions if the SDK is not published to a package manager
+  -l, --lang string              language to generate sdk for (available options: [csharp, go, java, php, postman, python, ruby, swift, terraform, typescript, unity])
+  -o, --out string               path to the output directory
+  -p, --published                whether the SDK is published to a package manager or not, determines the type of installation instructions to generate
+  -r, --repo string              the repository URL for the SDK, if the published (-p) flag isn't used this will be used to generate installation instructions
+  -b, --repo-subdir string       the subdirectory of the repository where the SDK is located in the repo, helps with documentation generation
+  -s, --schema string            local filepath or URL for the OpenAPI schema (default "./openapi.yaml")
+      --token string             token value to use if authentication is required for downloading schema from remote URL
+      --verbose                  Verbose output
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate](../README.md)	 - One off Generations for client SDKs and more
+### Sub Commands
+
+* [speakeasy generate sdk changelog](changelog.md)	 - Prints information about changes to the SDK generator
+* [speakeasy generate sdk version](version.md)	 - Print the version number of the SDK generator
+
+
+ This is the content for the doc docs/generate/sdk/changelog.md 
+
+ # changelog  
+`speakeasy generate sdk changelog`  
+
+
+Prints information about changes to the SDK generator  
+
+## Details
+
+Prints information about changes to the SDK generator with the ability to filter by version and format the output for the terminal or parsing. By default it will print the latest changelog entry.
+
+## Usage
+
+```
+speakeasy generate sdk changelog [flags]
+```
+
+### Options
+
+```
+  -h, --help              help for changelog
+  -l, --language string   the language to get changelogs for, if not specified the changelog for the generator itself will be returned
+  -p, --previous string   the version(s) to get changelogs between this and the target version(s)
+  -r, --raw               don't format the output for the terminal
+  -s, --specific string   the version to get changelogs for, not used if language is specified
+  -t, --target string     the version(s) to get changelogs from, if not specified the latest version(s) will be used
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate sdk](README.md)	 - Generating Client SDKs from OpenAPI specs (csharp, go, java, php, postman, python, ruby, swift, terraform, typescript, unity)
+
+
+ This is the content for the doc docs/generate/sdk/version.md 
+
+ # version  
+`speakeasy generate sdk version`  
+
+
+Print the version number of the SDK generator  
+
+## Details
+
+Print the version number of the SDK generator including the latest changelog entry
+
+## Usage
+
+```
+speakeasy generate sdk version [flags]
+```
+
+### Options
+
+```
+  -h, --help              help for version
+  -l, --language string   if language is set to one of the supported languages it will print version numbers for that languages features and the changelog for that language
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate sdk](README.md)	 - Generating Client SDKs from OpenAPI specs (csharp, go, java, php, postman, python, ruby, swift, terraform, typescript, unity)
+
+
+ This is the content for the doc docs/generate/usage.md 
+
+ # usage  
+`speakeasy generate usage`  
+
+
+Generate standalone usage snippets for SDKs in (go, typescript, python, java, php, swift, ruby, csharp, unity)  
+
+## Details
+
+Using the "speakeasy generate usage" command you can generate usage snippets for various SDKs.
+
+The following languages are currently supported:
+	- go
+	- typescript
+	- python
+	- java
+	- php
+	- swift
+	- ruby
+	- csharp
+	- unity
+
+You can generate usage snippets by AffectedOperationIDs or by Namespace. By default this command will write to stdout.
+
+You can also select to write to a file or write to a formatted output directory.
+
+
+## Usage
+
+```
+speakeasy generate usage [flags]
+```
+
+### Options
+
+```
+  -a, --all                   Generate usage snippets for all operations. Overrides operation-id and namespace flags.
+  -c, --config-path string    An optional argument to pass in the path to a directory that holds the gen.yaml configuration file. (default ".")
+  -H, --header string         header key to use if authentication is required for downloading schema from remote URL
+  -h, --help                  help for usage
+  -l, --lang string           language to generate sdk for (available options: [go, typescript, python, java, php, swift, ruby, csharp, unity]) (default "go")
+  -n, --namespace string      The namespace to generate multiple usage snippets for. This could correspond to a tag or a x-speakeasy-group-name in your OpenAPI spec.
+  -i, --operation-id string   The AffectedOperationIDs to generate usage snippet for
+  -o, --out string            By default this command will write to stdout. If a filepath is provided results will be written into that file.
+                              	If the path to an existing directory is provided, all results will be formatted into that directory with each operation getting its own sub folder.
+  -s, --schema string         local filepath or URL for the OpenAPI schema (default "./openapi.yaml")
+      --token string          token value to use if authentication is required for downloading schema from remote URL
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate](README.md)	 - One off Generations for client SDKs and more
+
+
+ This is the content for the doc docs/generate/version.md 
+
+ # version  
+`speakeasy generate version`  
+
+
+Print the version number of the SDK generator  
+
+## Details
+
+Print the version number of the SDK generator including the latest changelog entry
+
+## Usage
+
+```
+speakeasy generate version [flags]
+```
+
+### Options
+
+```
+  -h, --help              help for version
+  -l, --language string   if language is set to one of the supported languages it will print version numbers for that languages features and the changelog for that language
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy generate](README.md)	 - One off Generations for client SDKs and more
+
+
+ This is the content for the doc docs/lint/README.md 
+
+ # lint  
+`speakeasy lint`  
+
+
+Lint/Validate OpenAPI documents and Speakeasy configuration files  
+
+## Details
+
+# Lint 
+ The `lint` command provides a set of commands for linting OpenAPI docs and more.
+
+## Usage
+
+```
+speakeasy lint [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for lint
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](../README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+### Sub Commands
+
+* [speakeasy lint arazzo](arazzo.md)	 - Validate an Arazzo document
+* [speakeasy lint config](config.md)	 - Lint a Speakeasy configuration file
+* [speakeasy lint openapi](openapi.md)	 - Lint an OpenAPI document
+
+
+ This is the content for the doc docs/lint/arazzo.md 
+
+ # arazzo  
+`speakeasy lint arazzo`  
+
+
+Validate an Arazzo document  
+
+## Details
+
+Validates an Arazzo document adheres to the Arazzo specification. Supports either yaml or json based Arazzo documents.
+
+## Usage
+
+```
+speakeasy lint arazzo [flags]
+```
+
+### Options
+
+```
+  -f, --file string   path to the Arazzo document (default "arazzo.yaml")
+  -h, --help          help for arazzo
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy lint](README.md)	 - Lint/Validate OpenAPI documents and Speakeasy configuration files
+
+
+ This is the content for the doc docs/lint/config.md 
+
+ # config  
+`speakeasy lint config`  
+
+
+Lint a Speakeasy configuration file  
+
+## Details
+
+Validates a Speakeasy configuration file for SDK generation.
+
+## Usage
+
+```
+speakeasy lint config [flags]
+```
+
+### Options
+
+```
+  -d, --dir string   path to the directory containing the Speakeasy configuration file (default ".")
+  -h, --help         help for config
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy lint](README.md)	 - Lint/Validate OpenAPI documents and Speakeasy configuration files
+
+
+ This is the content for the doc docs/lint/openapi.md 
+
+ # openapi  
+`speakeasy lint openapi`  
+
+
+Lint an OpenAPI document  
+
+## Details
+
+# Lint 
+## OpenAPI
+
+Validates an OpenAPI document is valid and conforms to the Speakeasy OpenAPI specification.
+
+## Usage
+
+```
+speakeasy lint openapi [flags]
+```
+
+### Options
+
+```
+  -H, --header string                 header key to use if authentication is required for downloading schema from remote URL
+  -h, --help                          help for openapi
+      --max-validation-errors int     limit the number of errors to output (default 1000, 0 = no limit) (default 1000)
+      --max-validation-warnings int   limit the number of warnings to output (default 1000, 0 = no limit) (default 1000)
+  -r, --ruleset string                ruleset to use for linting (default "speakeasy-recommended")
+  -s, --schema string                 local filepath or URL for the OpenAPI schema
+      --token string                  token value to use if authentication is required for downloading schema from remote URL
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy lint](README.md)	 - Lint/Validate OpenAPI documents and Speakeasy configuration files
+
+
+ This is the content for the doc docs/merge.md 
+
+ # merge  
+`speakeasy merge`  
+
+
+Merge multiple OpenAPI documents into a single document  
+
+## Details
+
+Merge multiple OpenAPI documents into a single document, useful for merging multiple OpenAPI documents into a single document for generating a client SDK.
+Note: That any duplicate operations, components, etc. will be overwritten by the next document in the list.
+
+## Usage
+
+```
+speakeasy merge [flags]
+```
+
+### Options
+
+```
+  -h, --help                           help for merge
+  -o, --out string                     path to the output file
+  -s, --schemas path/to/schema1.json   a list of paths to OpenAPI documents to merge, specify -s path/to/schema1.json -s `path/to/schema2.json` etc
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+
+
+ This is the content for the doc docs/openapi/README.md 
+
+ # openapi  
+`speakeasy openapi`  
+
+
+Utilities for working with OpenAPI documents  
+
+## Details
+
+# OpenAPI 
+ The `openapi` command provides a set of commands for visualizing, linting and transforming OpenAPI documents.
+
+## Usage
+
+```
+speakeasy openapi [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for openapi
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](../README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+### Sub Commands
+
+* [speakeasy openapi diff](diff.md)	 - Visualize the changes between two OpenAPI documents
+* [speakeasy openapi lint](lint.md)	 - Lint an OpenAPI document
+* [speakeasy openapi transform](transform/README.md)	 - Transform an OpenAPI spec using a well-defined function
+
+
+ This is the content for the doc docs/openapi/diff.md 
+
+ # diff  
+`speakeasy openapi diff`  
+
+
+Visualize the changes between two OpenAPI documents  
+
+## Details
+
+Visualize the changes between two OpenAPI documents
+
+## Usage
+
+```
+speakeasy openapi diff [flags]
+```
+
+### Options
+
+```
+  -f, --format string   output format (default "summary")
+  -h, --help            help for diff
+      --new string      local filepath or URL for the updated OpenAPI schema
+      --old string      local filepath or URL for the base OpenAPI schema to compare against
+  -o, --output string   output file (default "-")
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy openapi](README.md)	 - Utilities for working with OpenAPI documents
+
+
+ This is the content for the doc docs/openapi/lint.md 
+
+ # lint  
+`speakeasy openapi lint`  
+
+
+Lint an OpenAPI document  
+
+## Details
+
+# Lint 
+## OpenAPI
+
+Validates an OpenAPI document is valid and conforms to the Speakeasy OpenAPI specification.
+
+## Usage
+
+```
+speakeasy openapi lint [flags]
+```
+
+### Options
+
+```
+  -H, --header string                 header key to use if authentication is required for downloading schema from remote URL
+  -h, --help                          help for lint
+      --max-validation-errors int     limit the number of errors to output (default 1000, 0 = no limit) (default 1000)
+      --max-validation-warnings int   limit the number of warnings to output (default 1000, 0 = no limit) (default 1000)
+  -r, --ruleset string                ruleset to use for linting (default "speakeasy-recommended")
+  -s, --schema string                 local filepath or URL for the OpenAPI schema
+      --token string                  token value to use if authentication is required for downloading schema from remote URL
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy openapi](README.md)	 - Utilities for working with OpenAPI documents
+
+
+ This is the content for the doc docs/openapi/transform/README.md 
+
+ # transform  
+`speakeasy openapi transform`  
+
+
+Transform an OpenAPI spec using a well-defined function  
+
+## Usage
+
+```
+speakeasy openapi transform [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for transform
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy openapi](../README.md)	 - Utilities for working with OpenAPI documents
+### Sub Commands
+
+* [speakeasy openapi transform cleanup](cleanup.md)	 - Cleanup the formatting of a given OpenAPI document
+* [speakeasy openapi transform filter-operations](filter-operations.md)	 - Given an OpenAPI file, filter down to just the given set of operations
+* [speakeasy openapi transform remove-unused](remove-unused.md)	 - Given an OpenAPI file, remove all unused options
+
+
+ This is the content for the doc docs/openapi/transform/cleanup.md 
+
+ # cleanup  
+`speakeasy openapi transform cleanup`  
+
+
+Cleanup the formatting of a given OpenAPI document  
+
+## Usage
+
+```
+speakeasy openapi transform cleanup [flags]
+```
+
+### Options
+
+```
+  -h, --help            help for cleanup
+  -o, --out string      write directly to a file instead of stdout
+  -s, --schema string   the schema to transform
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy openapi transform](README.md)	 - Transform an OpenAPI spec using a well-defined function
+
+
+ This is the content for the doc docs/openapi/transform/filter-operations.md 
+
+ # filter-operations  
+`speakeasy openapi transform filter-operations`  
+
+
+Given an OpenAPI file, filter down to just the given set of operations  
+
+## Usage
+
+```
+speakeasy openapi transform filter-operations [flags]
+```
+
+### Options
+
+```
+  -x, --exclude              exclude the given operationIDs, rather than including them
+  -h, --help                 help for filter-operations
+      --operations strings   list of operation IDs to include (or exclude) (comma-separated list)
+  -o, --out string           write directly to a file instead of stdout
+  -s, --schema string        the schema to transform
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy openapi transform](README.md)	 - Transform an OpenAPI spec using a well-defined function
+
+
+ This is the content for the doc docs/openapi/transform/remove-unused.md 
+
+ # remove-unused  
+`speakeasy openapi transform remove-unused`  
+
+
+Given an OpenAPI file, remove all unused options  
+
+## Usage
+
+```
+speakeasy openapi transform remove-unused [flags]
+```
+
+### Options
+
+```
+  -h, --help            help for remove-unused
+  -o, --out string      write directly to a file instead of stdout
+  -s, --schema string   the schema to transform
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy openapi transform](README.md)	 - Transform an OpenAPI spec using a well-defined function
+
+
+ This is the content for the doc docs/overlay/README.md 
+
+ # overlay  
+`speakeasy overlay`  
+
+
+Work with OpenAPI Overlays  
+
+## Details
+
+# Overlay
+
+Command group for working with OpenAPI Overlays.
+
+
+## Usage
+
+```
+speakeasy overlay [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for overlay
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](../README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+### Sub Commands
+
+* [speakeasy overlay apply](apply.md)	 - Given an overlay, construct a new specification by extending a specification and applying the overlay, and output it to stdout.
+* [speakeasy overlay compare](compare.md)	 - Given two specs (before and after), output an overlay that describes the differences between them
+* [speakeasy overlay validate](validate.md)	 - Given an overlay, validate it according to the OpenAPI Overlay specification
+
+
+ This is the content for the doc docs/overlay/apply.md 
+
+ # apply  
+`speakeasy overlay apply`  
+
+
+Given an overlay, construct a new specification by extending a specification and applying the overlay, and output it to stdout.  
+
+## Usage
+
+```
+speakeasy overlay apply [flags]
+```
+
+### Options
+
+```
+  -h, --help             help for apply
+      --out string       write directly to a file instead of stdout
+  -o, --overlay string   the overlay file to use
+  -s, --schema string    the schema to extend
+      --strict           fail if the overlay has any action target expressions which match no nodes, and produce warnings if any overlay actions do nothing
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy overlay](README.md)	 - Work with OpenAPI Overlays
+
+
+ This is the content for the doc docs/overlay/compare.md 
+
+ # compare  
+`speakeasy overlay compare`  
+
+
+Given two specs (before and after), output an overlay that describes the differences between them  
+
+## Usage
+
+```
+speakeasy overlay compare [flags]
+```
+
+### Options
+
+```
+  -a, --after string    the after schema to compare
+  -b, --before string   the before schema to compare
+  -h, --help            help for compare
+      --out string      write directly to a file instead of stdout
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy overlay](README.md)	 - Work with OpenAPI Overlays
+
+
+ This is the content for the doc docs/overlay/validate.md 
+
+ # validate  
+`speakeasy overlay validate`  
+
+
+Given an overlay, validate it according to the OpenAPI Overlay specification  
+
+## Usage
+
+```
+speakeasy overlay validate [flags]
+```
+
+### Options
+
+```
+  -h, --help             help for validate
+  -o, --overlay string   the overlay file to use
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy overlay](README.md)	 - Work with OpenAPI Overlays
+
+
+ This is the content for the doc docs/quickstart.md 
+
+ # quickstart  
+`speakeasy quickstart`  
+
+
+Guided setup to help you create a new SDK in minutes.  
+
+## Details
+
+Guided setup to help you create a new SDK in minutes.
+
+## Usage
+
+```
+speakeasy quickstart [flags]
+```
+
+### Options
+
+```
+  -h, --help             help for quickstart
+  -o, --out-dir string   output directory for the quickstart command
+  -s, --schema string    local filepath or URL for the OpenAPI schema
+      --skip-compile     skip compilation during generation after setup
+  -t, --target string    language to generate sdk for (available options: [typescript, python, go, java, terraform, csharp, unity, php, postman, ruby, swift])
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
+
+
+ This is the content for the doc docs/run.md 
+
+ # run  
+`speakeasy run`  
+
+
+Run all the workflows defined in your workflow.yaml file. This can include multiple SDK generations from different OpenAPI sources  
+
+## Details
+
+# Run 
+ Execute the workflow(s) defined in your `.speakeasy/workflow.yaml` file.
+
+A workflow can consist of multiple targets that define a source OpenAPI document that can be downloaded from a URL, exist as a local file, or be created via merging multiple OpenAPI documents together and/or overlaying them with an OpenAPI overlay document.
+
+A full workflow is capable of running the following:
+  - Downloading source OpenAPI documents from a URL
+  - Merging multiple OpenAPI documents together
+  - Overlaying OpenAPI documents with an OpenAPI overlay document
+  - Generating one or many SDKs from the resulting OpenAPI document
+  - Compiling the generated SDKs
+
+If `speakeasy run` is run without any arguments it will run either the first target in the workflow or the first source in the workflow if there are no other targets or sources, otherwise it will prompt you to select a target or source to run.
+
+## Usage
+
+```
+speakeasy run [flags]
+```
+
+### Options
+
+```
+  -d, --debug                     enable writing debug files with broken code
+      --github                    kick off a generation run in GitHub
+  -h, --help                      help for run
+  -i, --installationURL string    the language specific installation URL for installation instructions if the SDK is not published to a package manager
+      --installationURLs string   a map from target ID to installation URL for installation instructions if the SDK is not published to a package manager (default "null")
+      --minimal                   only run the steps that are strictly necessary to generate the SDK
+  -o, --output string             What to output while running (default "summary")
+      --registry-tags strings     tags to apply to the speakeasy registry bundle (comma-separated list)
+  -r, --repo string               the repository URL for the SDK, if the published (-p) flag isn't used this will be used to generate installation instructions
+  -b, --repo-subdir string        the subdirectory of the repository where the SDK is located in the repo, helps with documentation generation
+      --repo-subdirs string       a map from target ID to the subdirectory of the repository where the SDK is located in the repo, helps with documentation generation (default "null")
+      --set-version string        the manual version to apply to the generated SDK
+      --skip-compile              skip compilation when generating the SDK
+      --skip-versioning           skip automatic SDK version increments
+  -s, --source string             source to run. specify 'all' to run all sources
+  -t, --target string             target to run. specify 'all' to run all targets
+      --verbose                   Verbose logging
+  -w, --watch                     launch the web studio for improving the quality of the generated SDK
+```
+
+### Options inherited from parent commands
+
+```
+      --logLevel string   the log level (available options: [info, warn, error]) (default "info")
+```
+
+### Parent Command
+
+* [speakeasy](README.md)	 - The Speakeasy CLI tool provides access to the Speakeasy.com platform
